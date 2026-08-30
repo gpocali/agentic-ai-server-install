@@ -14,7 +14,7 @@ A streamlined, single-command deployment script to provision a Google Antigravit
 Run the following command in your Ubuntu terminal. On the initial run, the script will pause to ask for your Gemini API key, which it will securely save to `/opt/antigravity-server/.env`.
 
 ```bash
-wget -qO- [https://raw.githubusercontent.com/gpocali/agentic-ai-server-install/main/install.sh](https://raw.githubusercontent.com/gpocali/agentic-ai-server-install/main/install.sh) | bash
+wget -qO- https://raw.githubusercontent.com/gpocali/agentic-ai-server-install/main/install.sh | bash
 
 ```
 
